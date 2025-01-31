@@ -9,13 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0a0a23;
-            color: white;
+            background-color: #0d1117;
+            color: #c9d1d9;
             text-align: center;
         }
         header {
-            background: #1a1a2e;
+            background: #161b22;
             padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 255, 204, 0.3);
         }
         h1 {
             margin: 0;
@@ -28,16 +29,35 @@
         .container {
             padding: 20px;
         }
-        .about, .mission, .contact {
-            background: #16213e;
+        .about, .mission, .courses, .contact {
+            background: #21262d;
             margin: 20px auto;
             padding: 20px;
             border-radius: 10px;
             max-width: 800px;
-            box-shadow: 0px 0px 10px #00ffcc;
+            box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.4);
+        }
+        .courses ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+            text-align: left;
+        }
+        .courses li {
+            background: #161b22;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 204, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+        .courses li:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.7);
         }
         footer {
-            background: #1a1a2e;
+            background: #161b22;
             padding: 10px;
             position: relative;
             bottom: 0;
@@ -49,6 +69,7 @@
         }
         a:hover {
             text-decoration: underline;
+            color: #29f3e0;
         }
     </style>
 </head>
@@ -66,6 +87,22 @@
         <section class="mission">
             <h2>Our Mission</h2>
             <p>To empower individuals and organizations with cybersecurity knowledge, skills, and best practices to combat cyber threats effectively.</p>
+        </section>
+        <section class="courses">
+            <h2>Some of Contents/Courses you can Learn here:</h2>
+            <p>At Tanzania Cyber Academy, we offer specialized courses in cybersecurity, including:</p>
+            <ul>
+                <li><strong>OSSEC - Host-Based Intrusion Detection:</strong> Learn how to use OSSEC for log analysis, file integrity monitoring, policy enforcement, and rootkit detection.</li>
+                <li><strong>Security Onion - Threat Hunting Platform:</strong> Gain hands-on experience with Security Onion for threat hunting, network security monitoring, and log management.</li>
+                <li><strong>Ethical Hacking:</strong> Understand penetration testing methodologies, exploit vulnerabilities, and secure systems effectively.</li>
+                <li><strong>Digital Forensics:</strong> Learn how to investigate cybercrimes and analyze digital evidence.</li>
+                <li><strong>Network Security:</strong> Master the principles of securing networks and preventing cyber attacks.</li>
+                <li><strong>Malware Analysis:</strong> Study techniques to detect, analyze, and mitigate malware threats.</li>
+                <li><strong>Cloud Security:</strong> Gain insights into securing cloud environments and managing risks.</li>
+                <li><strong>Incident Response & Threat Intelligence:</strong> Learn how to detect, respond to, and mitigate security incidents.</li>
+                <li><strong>IoT Security:</strong> Understand security challenges in IoT environments and learn best practices to protect devices.</li>
+                <li><strong>Blockchain Security:</strong> Explore how blockchain technology can enhance cybersecurity and prevent fraud.</li>
+            </ul>
         </section>
         <section class="contact">
             <h2>Contact Us</h2>
