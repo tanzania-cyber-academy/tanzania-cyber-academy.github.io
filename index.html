@@ -14,6 +14,7 @@
     <meta name="description" content="Explore the portfolio of Lucas Emmanuel Manyota, showcasing projects, skills, and experience.">
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <link rel="canonical" href="https://manyota.computerdoctortz.co.tz/">
+    <link rel="stylesheet" href="https://computerdoctortz.co.tz/CSS/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
@@ -376,7 +377,6 @@
         .wp-block-create-block-faqs .wp-block-faqs-list .wp-block-faq-item .wp-block-faq-question {
             cursor: pointer;
             padding: 1rem;
-            background: #f7f7f7;
             margin: 0;
             display: flex;
             align-items: center;
@@ -871,7 +871,7 @@
                                             data-title="lifestyle-magazine" id="df_91" data-df-option="df_option_91"
                                             data-page="1" df-parsed="true" initid="10" style="height: 333px;">
                                             <div class="df-container df-controls-bottom df-float df-xs">
-                                                <div class="df-bg" style="background-image: url('wood.jpg'); background-size: cover;"></div>
+                                                <div class="df-bg"></div>
                                                 <div class="df-viewer-container" style="left: 0px; right: 0px;">
                                                     <div class="df-viewer df-flipbook df-flipbook-3d"><canvas
                                                             data-engine="three.js r148" width="485" height="500"
@@ -1026,7 +1026,7 @@
                                         <script async="" data-cfasync="false"
                                             src="https://js.dearflip.com/wp-content/plugins/dflip/assets/js/libs/three.min.js?ver=2.3.58"></script>
                                         <script class="df-shortcode-script" nowprocket=""
-                                            type="application/javascript">window.df_option_91 = { "source": "https://raw.githubusercontent.com/computerdoctortz/computerdoctortz/main/LUCAS%20EMMANUEL%20MANYOTA_CV.pdf", "outline": [], "color3DCover": "#90b35e", "backgroundColor": "#f3f0fc", "autoEnableOutline": false, "autoEnableThumbnail": false, "overwritePDFOutline": false, "pageMode": "0", "pageSize": "0", "direction": "1", "slug": "3d-flipbook", "wpOptions": "true", "id": 91, "height":"100%"  }; if (window.DFLIP && window.DFLIP.parseBooks) { window.DFLIP.parseBooks(); }</script>
+                                            type="application/javascript">window.df_option_91 = { "source": "https://raw.githubusercontent.com/computerdoctortz/computerdoctortz/main/LUCAS%20EMMANUEL%20MANYOTA_CV.pdf", "outline": [], "color3DCover": "#90b35e", "backgroundColor": "transparent", "autoEnableOutline": false, "autoEnableThumbnail": false, "overwritePDFOutline": false, "pageMode": "0", "pageSize": "0", "direction": "1", "slug": "3d-flipbook", "wpOptions": "true", "id": 91, "height":"100%"  }; if (window.DFLIP && window.DFLIP.parseBooks) { window.DFLIP.parseBooks(); }</script>
 
 
 
@@ -1126,11 +1126,11 @@
         }
 
         .df-lightbox-wrapper .df-bg {
-            background-color: transparent;
+            background-color: transparent !important;
         }
 
         .df-container.df-transparent.df-fullscreen {
-            background-color: #eee;
+            background-color: transparent !important;
         }
     </style>
     <script
@@ -1144,79 +1144,84 @@
         src="https://td.doubleclick.net/td/ga/rul?tid=G-25KNJ9WR28&amp;gacid=894796657.1742492327&amp;gtm=45je53i1v886490073za200&amp;dma=0&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;pscdl=noapi&amp;_ng=1&amp;aip=1&amp;fledge=1&amp;frm=0&amp;tag_exp=102482433~102788824~102813109~102814060~102879719&amp;z=1745941404"
         style="display: none; visibility: hidden;"></iframe>
 
-       <div class="shadow p-4 bg-white rounded">
-        <section id="about" class="container my-5">
+        <div>
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am a highly skilled cybersecurity and network engineer with extensive experience in securing IT systems, ethical hacking, and network defense.</p>
+        <p>I am highly motivated and detail-oriented professional with strong technical skills in Programming, Cybersecurity, Networking, and Educational expertise. Proven ability to integrate technology and teaching methodologies to enhance learning experiences and drive academic success. Eager to apply my skills in a challenging environment and committed to continuous professional development in the fields of IT and education.</p>
     </section>
 
-    <section id="skills" class="container my-5">
+    <section id="skills" class="section">
         <h2>Skills</h2>
         <ul>
             <li>Computer Network Engineering</li>
             <li>Cybersecurity Engineering</li>
             <li>Computer Repair Technician</li>
             <li>IT Trainer or IT Instructor</li>
-            <li>Linux & Windows Security</li>
         </ul>
+        <div class="para">
+            <p>Read more skill details on book(pdf) above!</p>
+        </div>
     </section>
 
-    <section id="projects" class="container my-5">
+    <section id="projects" class="section">
         <h2>Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Network Security Audit</h5>
-                    <p>Conducted a full security assessment for a corporate network to identify vulnerabilities.</p>
-                </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <h5>Automated python script for Ethical hacking
+                </h5>
+                <p>Conducted a full security assessment for a corporate network to identify vulnerabilities.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Cloud Security Implementation</h5>
-                    <p>Designed and implemented cloud security measures for a SaaS platform.</p>
-                </div>
+            <div class="project-card">
+                <h5>Cloud Security Implementation</h5>
+                <p>Designed and implemented cloud security measures for a SaaS platform.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Penetration Testing</h5>
-                    <p>Performed penetration testing for various organizations to enhance security posture.</p>
-                </div>
+            <div class="project-card">
+                <h5>Penetration Testing</h5>
+                <p>Performed penetration testing for various organizations to enhance security posture.</p>
             </div>
-        </div><br><br>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Network Security Audit</h5>
-                    <p>Conducted a full security assessment for a corporate network to identify vulnerabilities.</p>
-                </div>
+        </div>
+        <br><br>
+        <div class="projects-container">
+            <div class="project-card">
+                <h5>Network Security Audit</h5>
+                <p>Conducted a full security assessment for a corporate network to identify vulnerabilities.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Cloud Security Implementation</h5>
-                    <p>Designed and implemented cloud security measures for a SaaS platform.</p>
-                </div>
+            <div class="project-card">
+                <h5>Cloud Security Implementation</h5>
+                <p>Designed and implemented cloud security measures for a SaaS platform.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h5>Penetration Testing</h5>
-                    <p>Performed penetration testing for various organizations to enhance security posture.</p>
-                </div>
+            <div class="project-card">
+                <h5>Penetration Testing</h5>
+                <p>Performed penetration testing for various organizations to enhance security posture.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="container my-5 text-center">
+    <section id="contact" class="section text-center">
         <h2>Contact</h2>
-        <p>form here!</p>
-        <p>LinkedIn: linkedin.com/in/lucasmanyota</p>
+       <center>
+        <form action="https://formsubmit.co/computerdoctortz@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <p><strong>Fill this form to contact me:</strong></p>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <textarea name="reason" placeholder="Your Message" rows="4" required></textarea>
+            <input type="hidden" name="_subject" value="New Registration for Cybersecurity Training">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://www.computerdoctortz.co.tz/thankyou.html">
+            <input type="hidden" name="_autoresponse" value="Hello {name}, Thank you for registering for Cybersecurity Training! The session starts on 🗓️ March 17, 2025. We will contact you soon with more details." />
+            <button type="submit">Send Message</button>
+        </form>
+        </center>
     </section>
 
-    <footer>
-        <p style="color: #00d084;">&copy; 2025 Lucas Emmanuel Manyota. All Rights Reserved.</p>
+    <footer class="futa">
+        <p>&copy; 2025 Lucas Emmanuel Manyota. All Rights Reserved.</p>
     </footer>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        </div>
+
 </body>
 </html>
 
