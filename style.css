@@ -13,10 +13,12 @@
 }
 .btn-custom {
     background-color: #238636;
-    color: white;
+    color: rgb(199, 42, 42);
+    border-radius: 10px;
+    padding: 10px;
 }
 .btn-custom:hover {
-    background-color: #2EA043;
+    background-color: #848684;
 }
 .card {
     color: #C9D1D9;
@@ -71,7 +73,6 @@ button:hover {
     background-color: #00ff99;
 }
 
-/*===========================================================================*/
 
 p, li {
     font-size: 1.1em;
@@ -89,7 +90,6 @@ strong {
     font-weight: bold;
 }
 
-/* Section Styles */
 .section {
     padding: 60px 15px;
     max-width: 1000px;
@@ -112,7 +112,6 @@ strong {
     text-align: center;
 }
 
-/* Form input and textarea styles */
 input[type="text"], input[type="tel"], input[type="email"], textarea {
     width: 80%;
     max-width: 500px;
@@ -161,26 +160,34 @@ textarea {
     color: #00d084;
 }
 
-/*<!--************************************************************** */
-.df-container {
-    background-color: transparent !important;
-    box-shadow: none !important;
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
 }
-
-.df-bg {
-    background-color: transparent !important;
+.popup-content {
+    padding: 20px;
+    width: 50%;
+    margin: 15% auto;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    background-image: url('https://www.computerdoctortz.co.tz/../Pictures/back1.png');
+    box-shadow: 0px 0px 15px rgba(12, 86, 184, 0.5);
 }
-
-.df-viewer-container {
-    background-color: transparent !important;
-}
-
-/* Remove any background colors from pages */
-.df-page {
-    background-color: transparent !important;
-}
-
-/* If there's a specific background color set in the script */
-div.bg-purple {
-    background-color: transparent !important;
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
 }
